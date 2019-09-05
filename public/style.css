@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap'); 
+
+/*Nav Bar*/
+.full-navbar{
+  background-color: black;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  justify-content: flex-end;
+  display: flex;
+  padding: 15px 5%;
+}
+
+.nav_link{
+  list-style: none;
+  padding: 0px 20px;
+}
+
+.nav_link a{
+  box-sizing: border-box;
+  text-decoration: none;
+  color: white;
+  font-family:'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+.nav_link a:hover{
+  color: rgb(197, 197, 197)
+}
+
+.home-link{
+  margin-right: auto;
+}
+
+/*Home Page*/
+
+
+
+.heroImage {
+  background-image: 
+  linear-gradient(rgba(0, 0, 0, 0.5), 
+  rgba(0, 0, 0, 0.5)), 
+  url(./imgs/home-hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 850px;
+}
+
+.heroText {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family:'Montserrat', sans-serif;
+}
+
+.heroH1{
+  font-size: 96px;
+  
+}
+
+#menu-link{
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 20px 31px;
+  display: block;
+  font-size: 20px;
+}
+
+
+#menu-btn{
+  background-color: black;
+  border: 2px solid black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#menu-btn a{
+  text-transform: uppercase;
+  font-family:'Montserrat', sans-serif;
+  letter-spacing: 1.5px
+}
+
+#menu-btn:hover{
+  background-color: transparent;
+  border: 2px solid white;
+  transition: all 0.3s ease 0s;
+}
+
+.ingredients{
+  height: 700px;
+  background-color: rgb(235, 235, 235)
+}
+
+.ingredients-caption{
+  
+  font-variant: small-caps;
+  color: gray;
+  margin-bottom: 0px
+}
+
+.ingredients-image{
+  height: 551px;
+  width: 541px;
+  margin: 60px;
+  margin-top: 75px;
+  margin-left: 200px;
+  align-content: center;
+  padding: 0px;
+  border: 2.5px solid black;
+}
+
+.ingredients-text{
+  position: absolute;
+  margin: 20px;
+  margin-top: 225px;
+  right: 10px;
+  text-align: left;
+  
+}
+
+.ingredients-text h1{
+  font-size: 48px;
+  font-variant: small-caps;
+  color: black;
+  
+}
+
+.ingredients p{
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+
+.mission-image{
+  background-image:  
+  url(./imgs/mission-image.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 900px;
+}
+
+.mission-text{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  margin-top: 2.5em;
+  padding: 60px;
+  box-shadow: 5px 8px 5px rgb(27, 27, 27)
+}
+
+.mission-caption{
+  font-variant: small-caps;
+  color: gray;
+  margin-bottom: 0px;
+  font-size: 24px
+}
+
+.mission-text h1{
+  font-variant: small-caps;
+  color: black;
+  font-size: 50px
+}
+
+.mission-desc{
+  font-size: 24px
+}
+
+.mission-text div{
+  margin: 24px;
+  
+}
+.mission-text a{
+  text-decoration: none;
+  font-size: 18px;
+}
+
+
+/*MENU CSS*/
+
+.menu-page{
+  text-align: center
+}
+
+.menu-hero-text p{
+  font-size: 80px;
+  margin-top: 100px;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-variant: small-caps;
+  
+}
+
+.menu-title{
+  font-style: italic;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.menu{
+  margin-top: 100px;
+  height: 300px
+}
+
+.menu-list{
+ list-style: none;
+ text-align: center;
+ margin: 60px;
+ margin-bottom: 110px;
+}
+
+
+.menu-list h3{
+  font-family: 'Times New Roman', Times, serif;
+  color: black
+}
+
+.menu-list p{
+  font-size: 18px;
+  font-style: italic;
+}
+
+
+
+.price-list{
+  list-style: none;
+  
+  margin-bottom: 90px
+}
+
+.price-list h4{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold
+}
+
+.price-list p{
+  font-size: 18px
+}
+
+.res-button{
+  background-color: black;
+  border: 2px solid black;
+  margin: 60px;
+}
+
+.res-button:hover{
+  background-color: transparent;
+  transition: all 0.3s ease 0s
+}
+
+.res-button a{
+  text-transform: uppercase;
+  font-family:'Montserrat', sans-serif;
+  letter-spacing: 1.5px;
+  color: white;
+  text-decoration: none;
+  padding: 20px 30px;
+  display: block;
+  
+}
+
+.res-button a:hover{
+  color: black;
+  transition: all 0.3s ease 0s;
+
+}
+
+/*About CSS*/
+
+.about-hero-image{
+  background-image: 
+  linear-gradient(rgba(0, 0, 0, 0.5), 
+  rgba(0, 0, 0, 0.5)), 
+  url(./imgs/about-hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 850px;
+}
+
+.about-hero-text{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family:'Montserrat', sans-serif;
+}
+
+.about-hero-text h1{
+  font-size: 96px;
+}
+
+.about-hero-text p{
+  font-size: 28px
+}
+
+.about-story{
+  height: 500px;
+
+}
+
+.about-ratings{
+  height: 500px;
+
+}
+
+/*Footer Css*/
+/*
+.footer{
+  height: 80px;
+  background-color: black;
+  
+}
+
+.footer p{
+  color: white;
+}
