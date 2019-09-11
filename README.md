@@ -1,5 +1,5 @@
 # lennys-pizzeria
-Website for a non-existent pizzeria created for the purpose of UI design practice (still in progress)
+Website for a mock pizzeria created for the purpose of UI design practice (still in progress)
 
 To see website, use "npm install" in the terminal
 
