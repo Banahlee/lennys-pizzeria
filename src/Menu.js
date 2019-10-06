@@ -5,6 +5,10 @@ const Menu = () => {
     const whtDesc = 'Pizza made with alfredo sauce and topped with ricotta and mozzarella cheese';
     const italDesc = 'Our classic home-made sauce topped with italian sausage, mozzarella and parmesaen cheese';
 
+    function reserveSeat(){
+        alert('Sorry, we are not taking reservations at the moment!')
+    }
+
         return (
             <div className='menu-page'>
                 <div className='menu-hero-text'>
@@ -13,21 +17,19 @@ const Menu = () => {
                 <div className='menu-title'>
                     <h3>top selection of our customer favorites:</h3>
                 </div>
-                <div className='menu'>
-                    <ul className='menu-list row'>
-                        <li className='col-md-4 mp'>
-                            <h3>~ Margherita Pizza ~</h3>
-                            <p className='pizza-desc'>{margDesc}</p>
-                        </li>
-                        <li className='col-md-4 wp'>
-                            <h3>~ White Pizza ~</h3>
-                            <p className='pizza-desc'>{whtDesc}</p>
-                        </li>
-                        <li className='col-md-4 is'>
-                            <h3>~ Italian Sausage ~</h3>
-                            <p className='pizza-desc'>{italDesc}</p>
-                        </li>
-                    </ul>
+                <div className='menu '>
+                    <div>
+                        <h3>Margherita Pizza</h3>
+                        <p>{margDesc}</p>
+                    </div>
+                    <div>
+                        <h3>White Pizza</h3>
+                        <p>{whtDesc}</p>
+                    </div>
+                    <div>
+                        <h3>Italian Sausage</h3>
+                        <p>{italDesc}</p>
+                    </div>
                 </div>
                 <div className='container'>
                         <ul className='price-list row'>
@@ -46,9 +48,10 @@ const Menu = () => {
                     </ul>
                 </div>
                 <div>
-                    <button className='res-button'><a href=''>reserve seat</a></button>
-                </div>
+                    <button onClick={reserveSeat} className='res-button'><div>reserve seat</div></button>
+                </div> 
             </div>
+           
         )
     }
 
